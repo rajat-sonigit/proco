@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "279412283933",
+    "firebase_url": "https://proco-6c50c-default-rtdb.firebaseio.com",
+    "project_id": "proco-6c50c",
+    "storage_bucket": "proco-6c50c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279412283933:android:a36728332ec5b88c6204f4",
+        "android_client_info": {
+          "package_name": "com.example.proco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsUp4CavY3Y1XshXXBHLnlUF2CWL6YHj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
