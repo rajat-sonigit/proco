@@ -2,4 +2,4 @@
 
 A new Flutter project.
 
-This ids hackton project 
+This is hackton project 
