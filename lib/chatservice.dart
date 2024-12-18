@@ -25,6 +25,7 @@ class ChatService extends ChangeNotifier {
         .collection('message')
         .add(newMessage.toMap());
   }
+  
   Stream<QuerySnapshot> getMessages(String userId, String otherUserId) {
     List<String> ids = [userId, otherUserId];
     ids.sort();
