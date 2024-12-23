@@ -11,7 +11,6 @@ class ChatBubble extends StatelessWidget {
     required this.message,
     required this.isMyMessage,
   }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
