@@ -5,7 +5,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class ChatBubble extends StatelessWidget {
   final String message;
   final bool isMyMessage;
-
   const ChatBubble({
     Key? key,
     required this.message,
