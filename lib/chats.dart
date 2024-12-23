@@ -43,7 +43,6 @@ class _ChatsState extends State<Chats> {
   final TextEditingController _messageController = TextEditingController();
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   late final Stream<QuerySnapshot> _messagesStream;
-
   @override
   void initState() {
     super.initState();
