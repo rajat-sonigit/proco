@@ -16,7 +16,6 @@ class Person {
     required this.keywords,
   });
 }
-
 class MatchingScreen extends StatefulWidget {
   @override
   _MatchingScreenState createState() => _MatchingScreenState();
