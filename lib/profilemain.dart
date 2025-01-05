@@ -19,8 +19,6 @@ class ProfileSc extends StatelessWidget {
     await FirebaseAuth.instance.signOut();
     // Add any additional sign-out logic if needed
     // For example, clear user session, remove tokens, etc.
-
-    // Navigate back to the splash screen
     Navigator.push(
         context,
         MaterialPageRoute(
