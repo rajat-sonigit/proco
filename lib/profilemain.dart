@@ -111,7 +111,6 @@ class ProfileSc extends StatelessWidget {
                     endIcon: false,
                     onpress: () => signOut(context)),
               ],
-              // Column// Container
             ),
           ), // SingleChildScrollView
         ),
