@@ -20,7 +20,6 @@ class MatchingScreen extends StatefulWidget {
   @override
   _MatchingScreenState createState() => _MatchingScreenState();
 }
-
 class _MatchingScreenState extends State<MatchingScreen> {
   // Dummy list of persons (for demonstration purposes)
   List<Person> persons = [
