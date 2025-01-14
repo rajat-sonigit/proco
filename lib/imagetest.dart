@@ -42,8 +42,6 @@ class _ProfileCreationPageState extends State<ProfileCreationPag> {
         if (selectedKeywords.length < 10) {
           selectedKeywords.add(keyword);
         } else {
-          // Optionally, you could show a snackbar or other notification
-          // to inform the user that they've reached the maximum number of keywords
         }
       }
     });
