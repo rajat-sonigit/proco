@@ -13,7 +13,6 @@ class ChatBubble extends StatelessWidget {
         color: Colors.blue,
       ),
       child:  Text(message, style: const TextStyle(fontSize: 16,color: Colors.white) ),
- 
     );
   }
 }
