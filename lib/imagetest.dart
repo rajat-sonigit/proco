@@ -84,8 +84,6 @@ class _ProfileCreationPageState extends State<ProfileCreationPag> {
         // Get the user input values
         String name = _nameController.text;
         String age = _ageController.text;
-
-        // Create a map of profile data
         Map<String, dynamic> profileData = {
           'name': name,
           'age': age,
