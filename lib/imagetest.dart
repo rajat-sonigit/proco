@@ -16,7 +16,6 @@ class ProfileCreationPag extends StatefulWidget {
   @override
   _ProfileCreationPageState createState() => _ProfileCreationPageState();
 }
-
 class _ProfileCreationPageState extends State<ProfileCreationPag> {
   TextEditingController _nameController = TextEditingController();
   TextEditingController _ageController = TextEditingController();
