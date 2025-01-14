@@ -70,7 +70,6 @@ class _ProfileCreationPageState extends State<ProfileCreationPag> {
           storage.ref().child("profileImages/${_auth.currentUser!.uid}");
 
       await reference.putFile(_image!);
-
       String imageUrl = await reference.getDownloadURL();
       await _createProfile(imageUrl);
     } catch (e) {
