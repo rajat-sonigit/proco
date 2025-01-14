@@ -21,7 +21,6 @@ class _ProfileCreationPageState extends State<ProfileCreationPag> {
   TextEditingController _ageController = TextEditingController();
   List<String> selectedKeywords = [];
   File? _image;
-
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final CollectionReference _profiles =
       FirebaseFirestore.instance.collection('profiles');
