@@ -106,8 +106,7 @@ class _ChatsState extends State<Chats> {
                 }
               },
             ),
-          ),
-          
+          ),       
           Padding(
             padding: EdgeInsets.all(8),
             child: Row(
