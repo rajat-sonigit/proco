@@ -26,7 +26,6 @@ class ChatBubble extends StatelessWidget {
     );
   }
 }
-
 class Chats extends StatefulWidget {
   final String receiverUserEmail;
   final String receiverUserId;
