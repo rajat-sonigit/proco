@@ -55,6 +55,7 @@ class _ChatsState extends State<Chats> {
         .orderBy('timestamp')
         .snapshots();
   }
+  
   void _sendMessage() async {
     if (_messageController.text.isNotEmpty) {
       final currentUser = _firebaseAuth.currentUser;
