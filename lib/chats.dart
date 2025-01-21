@@ -40,6 +40,7 @@ class Chats extends StatefulWidget {
   @override
   State<Chats> createState() => _ChatsState();
 }
+
 class _ChatsState extends State<Chats> {
   final TextEditingController _messageController = TextEditingController();
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
