@@ -121,7 +121,6 @@ class _ChatsState extends State<Chats> {
                     ),
                   ),
                 ),
-                
                 SizedBox(width: 8),
                 ElevatedButton(
                   onPressed: _sendMessage,
