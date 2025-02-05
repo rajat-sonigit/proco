@@ -21,7 +21,6 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
       return LoginPage(name: "");
     } else {
       return const SignupPage();
-      
     }
   }
 }
