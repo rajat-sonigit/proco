@@ -15,8 +15,7 @@ class AuthService extends ChangeNotifier {
     } on FirebaseAuthException catch (e) {
       throw Exception(e.code);
     }
-  }
-  
+  } 
   Future<UserCredential> signUpWithEmailandPassword(
       String email, password) async {
     try {
