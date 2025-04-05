@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proco/login_pag.dart';
 import 'package:proco/signup_page.dart';
-
 class AuthenticationPage extends StatefulWidget {
   const AuthenticationPage({super.key});
   @override
