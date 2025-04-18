@@ -14,6 +14,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
       showLoginPage = !showLoginPage;
     });
   }
+  
   @override
   Widget build(BuildContext context) {
     if (showLoginPage) {
