@@ -6,6 +6,7 @@ class AuthenticationPage extends StatefulWidget {
   @override
   State<AuthenticationPage> createState() => _AuthenticationPageState();
 }
+
 class _AuthenticationPageState extends State<AuthenticationPage> {
   bool showLoginPage = true;
   void togglePages() {
