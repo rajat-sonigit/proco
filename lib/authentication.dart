@@ -15,7 +15,6 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
   }
   
   @override
-  
   Widget build(BuildContext context) {
     if (showLoginPage) {
       return LoginPage(name: "");
